@@ -1,0 +1,89 @@
+body {
+    background-attachment: fixed;
+}
+
+.carousel-inner > .item > img {
+    height: 400px;
+}
+
+.container > .row > .s5 {
+    height: 380px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.container > .row > .s5 > img {
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.container > .row > .s5 > p {
+    font-family: Raleway;
+    margin-top: 15px;
+}
+
+.container > .row > .s5 > #rating {
+    margin-top: -10px;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+#myCarousel {
+    height: 380px;
+}
+
+h5 {
+    margin-top: -2px;
+    font-family: Montserrat;
+}
+
+.checked {
+    color: orange;
+}
+
+nav > .nav-wrapper > a:hover {
+    text-decoration: none;
+}
+
+nav > .nav-wrapper > #nav-mobile > li > a:hover {
+    text-decoration: none;
+}
+
+.actions {
+    text-align: center;
+}
+
+.actions > ul {
+    list-style-type: none;
+}
+
+.actions > ul > a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    margin: 0px 20px;
+    margin-top: 20px;
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+.actions > ul > a:hover {
+    background: black;
+    color: white;
+    font-weight: 500;
+}
+
+.center {
+    margin: 30px 90px;
+    margin-bottom: 0px;
+}

@@ -1,2 +1,10 @@
-# travel-and-tourism-website-HTML-and-CSS-project
-This repo contains HTML and CSS project.
+# Travel and Tourism Website Project
+This repo contains Travel and Tourism Website Project.<br/>
+
+This project has no backend. <br/>
+
+## Languages Used <br/>
+
+* HTML and CSS
+* Bootstrap
+* [Materialize CSS] (https://materializecss.com/)

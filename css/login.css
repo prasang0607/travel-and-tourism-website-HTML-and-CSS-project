@@ -1,0 +1,128 @@
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login {
+    width: 45%;
+    height: 100%;
+    background: white;
+    border-radius: 15px;
+    padding: 28px 50px;
+    text-align: center;
+    margin: 20px 0px;
+    margin-top: 25px;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 5px #000;
+}
+
+input{
+    width: 100%;
+}
+
+p {
+    text-align: left;
+    font-family: Montserrat;
+    position: static;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    font-size: 18px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid #64FFDA;
+}
+
+#button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: black;
+    color: white;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+#button:hover {
+    background-color: red;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 1px solid #212121;
+}
+
+
+#login > form > #logos > a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bolder;
+    border: 1px solid none;
+    box-shadow: 0px 0px 9px #000;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 2px;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+#login > form > #logos > .fb {
+    color: white;
+    background: #303F9F;
+}
+
+#login > form > #logos > .google {
+    color: #004D40;    
+}
+
+#login > form > #logos > .fb:hover {
+    background: linear-gradient(to bottom left, #003366 0%, #ff99cc 100%);
+}
+
+#login > form > #logos > .google:hover {
+    color: white;
+    background: linear-gradient(to bottom left, #003366 0%, #ff99cc 100%);
+}
+
+
+#login > form > #logos > a > .text{
+    position: relative;
+    bottom: 18px;
+    left: 10px;
+}
+
+#login > form > #logos > a > img{
+    position: relative;
+    top: 2px;
+    left: -15px;
+}
+
+#login > form > #logos{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 10px;
+    grid-column-gap: 30px;
+}
+
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif;

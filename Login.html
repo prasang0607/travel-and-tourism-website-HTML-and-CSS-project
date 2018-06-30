@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign In | Voyager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Logos/logo.ico" type="image">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body background="Images\bg-01.jpg">
+    <center>
+        <div id="login">
+
+            <h2 style="font-family: Montserrat">Sign In</h2><br>
+
+            <form>
+
+                <p>Username</p>
+                <input type="text" id="email"><br>
+                <p>Password</p>
+                <input type="password" id="pswd"><br><br><br>
+                <a href="index.html" onclick="return validate()" id="button">Sign In</a><br><br>
+                <p style="text-align: center; margin: 30px; font-weight: bold;">OR</p>
+
+                <div id="logos">
+
+                    <a href="index.html" class="fb">                
+                <img src="https://png.icons8.com/ios-glyphs/50/FFFFFF/facebook.png">
+                <span class="text">Facebook</span></a>
+
+                    <a href="index.html" class="google">                
+                <img src="https://png.icons8.com/color/50/000000/google-logo.png">
+                <span class="text">Google</span></a>
+
+                </div>
+
+            </form>
+            
+        </div>
+    </center>   
+    
+    
+    <script>
+        function validate() {
+            email = document.getElementById('email').value;
+            pswd = document.getElementById('pswd').value;
+            validEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+            if (email == '') {
+                alert('Please enter your email.');
+                return false;
+            } else if (validEmail.test(email) == false) {
+                alert('Please enter your email correctly');
+                return false;
+            } else if (pswd == '') {
+                alert('Please enter password.');
+                return false;
+            } else
+                return true;
+        }
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</body>
+
+</html>

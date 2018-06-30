@@ -1,0 +1,51 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.container > h2 {
+    font-family: Raleway;
+    margin-bottom: 100px;
+}
+
+.container > h5 {
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+
+pre {
+    font-family: Raleway;
+    margin-top: 10px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 162px;
+    right: 15px;
+    z-index: 99;
+    font-family: Montserrat;
+    border: black;
+    outline: none;
+    background-color: white;
+    color: #212121;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px #000;
+    font-weight: 520;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+#myBtn:hover {
+    background-color: #212121;
+    color: white;
+    box-shadow: 0px 0px 15px #000;
+}

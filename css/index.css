@@ -1,0 +1,271 @@
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+font-family: 'Varela Round', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rammetto One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+.bg {
+    height: 100%;
+    width: 90%;
+}
+
+.logo > .voyager {
+    position: relative;
+    right: 75px;
+    display: block;
+    font-size: 40px;
+    float: left;
+    font-family: Montserrat;
+    color: black;
+
+}
+
+.navbar > ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar > ul > a > li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-family: Montserrat;
+    color: white;
+    background: black;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+.navbar > ul > .login > li{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-family: Montserrat;
+    color: white;
+    background: red;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+.navbar > ul > .login > li:hover {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+.navbar > ul > a > li:hover {
+    background-color: white;
+    color: black;
+}
+
+header > .logo {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.sociallist > a > li {
+    float: right;
+    position: relative;
+    top: 20px;
+    color: black;
+    width: 25px;
+    height: 25px;
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.sociallist > a > li:hover {
+    color: blue;
+}
+
+header > .logo {
+    height: 20%;
+}
+
+
+header > .logo > h3 {
+    font-size: 22px;
+    text-align: center;
+    padding-left: .5em;
+    font-family: Montserrat;
+    padding-top: 21px;
+}
+
+header > .logo > h3 > .dot {
+    font-family: Rammetto One;
+    color: #D50000;
+
+}
+
+.wtv > .welcome {
+    margin: 40px 0px;
+}
+
+.wtv > .welcome > .initial {
+    font-family: Josefin Sans;
+    font-size: 40px;
+}
+
+.wtv > .welcome > .last {
+    font-family: Montserrat;
+    font-size: 45px;
+    padding-right: 0.5em;
+}
+
+/* End of header */
+
+.checked {
+    color: orange;
+}
+
+.container > #buttons > .button {
+    margin-left: 5px;
+}
+
+.container > #first {
+    font-family: Dancing Script;
+    font-size: 50px;
+    border-left: 5px solid #00796b;
+    align-self: center;
+    margin-left: 0.8em;
+    margin-bottom: 40px;
+}
+
+#buttons > ul {
+    list-style-type: none;
+    font-family: Montserrat;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+#buttons > ul > a > li {
+    color: black;
+    display: inline-block;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-right: 30px;
+    font-size: 17px;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+#buttons > ul > a > li:hover {
+    background-color: #64FFDA;
+}
+
+.container>#flights {
+    padding: 3px;
+}
+
+.container>#category {
+    margin: 4px;
+    color: black;
+    font-family: Varela Round;
+    position: relative;
+    top: 25px;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 162px; 
+    right: 15px; 
+    z-index: 99; 
+    font-family: Montserrat;
+    border: black; 
+    outline: none; 
+    background-color: white; 
+    color: #212121; 
+    cursor: pointer; 
+    padding: 15px 13px; 
+    border-radius: 50px; 
+    font-size: 18px;
+    box-shadow: 0px 0px 10px #000;
+    font-weight: 520;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+#myBtn:hover {
+    background-color: #212121;
+    color: white;
+    box-shadow: 0px 0px 15px #000;
+}
+
+#contact {
+    width: 80%;
+    height: 350px;
+    background: #424242;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    color: white;
+    border: 2px solid none;
+    font-family: Montserrat;
+    font-size: 17px;
+    line-height: 35px;
+}
+.col>.grey>.card-action>a{
+    font-family: Varela Round;
+    color: white !important;
+    background: #00796b;
+    padding: 3px 5px;
+}
+.col>.medium>.red {
+    text-align: center;
+}
+.col>.medium>.red>a {
+    font-family: Varela Round;
+}
+.col>.card>.card-content>.makebold{
+    font-size: 25px;
+    font-weight: bold;
+}
+.col>.card>.card-image>img{
+    height: 165px;
+}
+#contact > ul > li > .align {
+    width: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#contact > ul > li > .mapmarker {
+    width: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,45 @@
+font-family: 'Montserrat', sans-serif;
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.content {
+    display; grid;
+    grid-template-columns: 80% 20%; 
+}
+
+.content>p {
+    display: block;
+    font-size: 40px;
+    float: left;
+    margin: 21px;
+    margin-left: 22px;
+    font-family: Montserrat;
+    color: black;
+}
+
+.content>a {    
+    float: right;
+    position: relative;
+    top: 29.5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background: black;
+    font-family: Montserrat;
+    border-radius: 25px;
+    padding: 5px 10px;
+    -webkit-transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+}
+
+.content>a:hover {
+    background-color: white;
+    color: black;
+}
