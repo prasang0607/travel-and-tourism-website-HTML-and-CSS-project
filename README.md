@@ -7,4 +7,4 @@ This project has no backend. <br/>
 
 * HTML and CSS
 * Bootstrap
-* [Materialize CSS] (https://materializecss.com/)
+* [Materialize CSS](https://materializecss.com/)
